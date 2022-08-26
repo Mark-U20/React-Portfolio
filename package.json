@@ -5,7 +5,7 @@
   "homepage": "https://mark-u20.github.io/React-Portfolio/",
   "scripts": {
     "predeploy":"npm run build",
-    "debploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
     "dev": "parcel src/index.html",
     "format:check": "prettier --check \"src/**/*.{js,jsx,ts,tsx}\"",
