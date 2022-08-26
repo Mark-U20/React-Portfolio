@@ -2,7 +2,10 @@
   "name": "react-online-course",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://mark-u20.github.io/React-Portfolio/",
   "scripts": {
+    "predeploy":"npm run build",
+    "debploy": "gh-pages -d build",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
     "dev": "parcel src/index.html",
     "format:check": "prettier --check \"src/**/*.{js,jsx,ts,tsx}\"",
@@ -37,6 +40,7 @@
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.2",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0"
