@@ -1,5 +1,3 @@
-import Form from "./components/Form";
-
 const ContactMe = () => {
   return (
     <div className="flex justify-center pt-3">
